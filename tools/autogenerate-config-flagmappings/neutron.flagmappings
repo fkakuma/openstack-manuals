@@ -184,10 +184,12 @@ AGENT/comment_iptables_rules l3_agent
 AGENT/dont_fragment openvswitch_agent ml2_ofa
 AGENT/drop_flows_on_start openvswitch_agent
 AGENT/enable_distributed_routing openvswitch_agent
+AGENT/get_datapath_retry_times ml2_ofa
 AGENT/l2_population openvswitch_agent
 AGENT/log_agent_heartbeats common
 AGENT/minimize_polling openvswitch_agent
 AGENT/ovsdb_monitor_respawn_interval openvswitch_agent
+AGENT/physical_interface_mappings ml2_ofa
 AGENT/polling_interval hyperv_agent
 AGENT/prevent_arp_spoofing openvswitch_agent
 AGENT/quitting_rpc_timeout openvswitch_agent linuxbridge_agent
